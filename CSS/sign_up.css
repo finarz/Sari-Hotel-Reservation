@@ -1,0 +1,60 @@
+form {
+    padding: 30px;
+    border: 2px solid #FFD700;
+    border-radius: 15px;
+    background: rgba(1, 1, 1, 0.95);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7), 0 6px 10px rgba(255, 215, 0, 0.4);
+    max-width: 700px;
+    width: 100%;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+/* Input fields styling */
+form input[type="text"],
+form input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 14px;
+  color: black;
+}
+
+/* Input hover and focus */
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+  border-color: gold;
+  outline: none;
+  box-shadow: 0 0 5px gold;
+}
+
+/* Error styling */
+.error {
+  color: gold;
+  font-size: 12px;
+}
+
+/* Submit button styling */
+form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: black;
+  color: gold;
+  border: 2px solid gold;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+  background-color: gold;
+  color: black;
+  border-color: black;
+}

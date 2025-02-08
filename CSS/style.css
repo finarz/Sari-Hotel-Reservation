@@ -1,0 +1,212 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/* ----Navigation---- */
+.navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    top: 0;
+    font-family: sans-serif;
+}
+.navbar a {
+    color: rgb(255, 255, 255);
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar .signin {
+    margin-left: auto;
+}
+
+.navbar .signout {
+    margin-left: auto;
+}
+
+.navbar .login {
+    margin-left: 0px;
+}
+
+a:hover {
+    color: rgb(220, 136, 9);
+}
+/* ----End Navigation---- */
+
+/* ----Footer---- */
+footer {
+    text-align: left;
+    background-color: rgb(106, 50, 0);
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    height: 200px;
+}
+
+.icon {
+    text-align: left;
+    margin-left: 50px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+/* ----End Footer---- */
+.error {color: #FF0000;}
+
+/* ----HomePage---- */
+.HomePage h2 {
+    color: white;
+    text-align: center;
+    background-color: rgb(209, 119, 3);
+    padding: 12px 0px;
+}
+
+.HomePage h3 {
+    text-align: center;
+}
+
+.HomePage p{
+    font-size: 16px;
+    padding: 0px 100px;
+    color: rgb(216, 216, 216);
+}
+
+.HomePage .room-row {
+    display: flex;
+}
+.HomePage .room-column {
+    flex: 1;
+}
+
+/* ----End HomePage---- */
+
+/* ----Booking---- */
+.Booking h2 {
+    color: white;
+    text-align: center;
+    background-color: rgb(209, 119, 3);
+    padding: 12px 0px;
+}
+
+.Booking form {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f200;
+    border: 2px solid #d48a06;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Booking .column {
+    flex: 1 1 45%;
+}
+
+.Booking label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.Booking input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.Booking button, input[type="submit"] {
+    background-color: #d48a06;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.Booking button:hover, input[type="submit"]:hover {
+    background-color: #bf7804; 
+}
+
+.Booking input[type="date"] {
+    padding: 8px;
+}
+
+/* ----End Booking---- */
+
+
+/*Service Section Styling*/
+.Service .service-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.Service .service-column {
+    background-color: #000;
+    border: none;
+    flex: 1 1 30%;
+    max-width: 30%;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+.Service .service-column img {
+    width: 80%;
+    border-radius: 5px;
+}
+.Service .service-info {
+    padding: 15px;
+    color: white;
+}
+.Service .service-info h3 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+.Service .service-info p {
+    margin: 10px 0;
+}
+.Service .service-info .price {
+    color: #ffc04c;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.Service .service-info .book-now {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(209, 127, 11);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.Service .service-info .book-now:hover {
+    background-color: rgb(209, 127, 11);
+}
+
+.Service hr{
+    height: 1px;
+    border-width: 0;
+    background-color: rgb(209, 127, 11);
+}
+
